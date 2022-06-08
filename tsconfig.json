@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "strict": true,
+    "module": "commonjs",
+    // "module": "amd",
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "lib": [
+      "es6",
+      "dom",
+      "dom.iterable"
+    ],
+    "rootDir": "src",
+    "moduleResolution": "node",
+    // "outFile": "./dist/app.js",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}
